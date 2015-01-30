@@ -7,7 +7,7 @@
 | File | Description |
 | --- | --- |
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
-| `Preferences.sublime-settings` | My Sublime Text 2 user preferences. |
+| `Preferences.sublime-settings` | My Sublime Text 3 user preferences. |
 
 ## Checklist
 
@@ -28,7 +28,7 @@
 
 ### 3. Prep Terminal.app
 
-- Load [`.bash_profile`](/master/.bash_profile)
+- Load [`.bash_profile`](.bash_profile)
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
 
@@ -47,4 +47,4 @@ import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c
   - [Sass](http://sass-lang.com) package
   - [Spacegray theme](http://kkga.github.io/spacegray/)
 
-- Load user settings from [`Preferences.sublime-settings`](/master/Preferences.sublime-settings)
+- Load user settings from [`Preferences.sublime-settings`](Preferences.sublime-settings)

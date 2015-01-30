@@ -7,6 +7,7 @@
 | File | Description |
 | --- | --- |
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
+| `.editorconfig` | The editor config file I use everywhere. |
 | `Preferences.sublime-settings` | My Sublime Text 3 user preferences. |
 
 ## Checklist

@@ -1,0 +1,30 @@
+{
+  // Theme and scheme
+  "theme": "Spacegray.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-ocean.dark.tmTheme",
+
+  // Personal preferences
+  "bold_folder_labels": true,
+  "folder_exclude_patterns":
+  [
+    ".svn",
+    ".git",
+    ".hg",
+    "CVS",
+    "tmp/*"
+  ],
+  "font_size": 17.0,
+  "highlight_line": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+  "remember_open_files": false,
+
+  // Important Preferences
+  "tab_size": 2,
+  "translate_tabs_to_spaces": true,
+  "trim_automatic_white_space": true,
+  "trim_trailing_white_space_on_save": true
+}

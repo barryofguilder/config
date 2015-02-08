@@ -32,6 +32,13 @@
 - Load [`.bash_profile`](.bash_profile)
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
+- Enable tab completion
+  - Open the `.inputrc` file and paste the following
+```bash
+set completion-ignore-case on
+set show-all-if-ambiguous on
+TAB: menu-complete
+```
 
 ### 4. Tweak Sublime Text 3 just right
 

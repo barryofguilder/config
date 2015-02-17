@@ -21,6 +21,19 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias ll='ls -al'
 alias editbash='subl ~/.bash_profile'
 
+## Git commands
+alias log='git log'
+alias diff='git diff'
+alias branch='git branch'
+alias st='git status'
+alias fetch='git fetch'
+alias push='git push origin head'
+alias pull='git pull'
+alias fp='fetch && pull'
+alias gmm='git merge master'
 
-### Added by the Heroku Toolbelt
+## Projects
+alias butch='cd ~/Websites/butchers-market'
+
+# Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

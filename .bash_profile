@@ -20,6 +20,7 @@ alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 ## Shortcuts
 alias ll='ls -al'
 alias editbash='subl ~/.bash_profile'
+alias resource='source ~/.bash_profile && echo "Done!"'
 
 ## Git commands
 alias log='git log'

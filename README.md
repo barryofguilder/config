@@ -2,6 +2,8 @@
 
 **Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, and more so I can more quickly get back to coding.
 
+Inspiration for this came from @mdo's [repository](https://github.com/mdo/config) of the same name.
+
 ## Contents
 
 | File | Description |

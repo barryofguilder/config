@@ -16,6 +16,7 @@ export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
 
 ## Tools
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
+alias beans='/Applications/NetBeans/NetBeans\ 8.0.2.app/Contents/Resources/NetBeans/bin/netbeans'
 
 ## Shortcuts
 alias ll='ls -al'
@@ -35,6 +36,7 @@ alias gmm='git merge master'
 
 ## Projects
 alias butch='cd ~/Websites/butchers-market'
+alias prana='cd ~/Development/prana-server'
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"

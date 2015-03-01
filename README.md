@@ -10,6 +10,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 | --- | --- |
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
 | `.editorconfig` | The editor config file I use everywhere. |
+| `.inputrc` | Customizes keyboard mappings for tab completion. |
 | `Preferences.sublime-settings` | My Sublime Text 3 user preferences. |
 
 ## Checklist
@@ -22,7 +23,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 ### 2. Download dependencies
 
 - Install [rbenv](https://github.com/sstephenson/rbenv)
-- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.2.0p0`)
+- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.2.0`)
   - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
 - Install Rails gem: `$ gem install rails`
 - Download and run the [Node.js Mac installer](http://nodejs.org/download/)
@@ -32,15 +33,9 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 ### 3. Prep Terminal.app
 
 - Load [`.bash_profile`](.bash_profile)
+- Load [`.inputrc`](.inputrc)
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
-- Enable tab completion
-  - Open the `.inputrc` file and paste the following
-```bash
-set completion-ignore-case on
-set show-all-if-ambiguous on
-TAB: menu-complete
-```
 
 ### 4. Tweak Sublime Text 3 just right
 

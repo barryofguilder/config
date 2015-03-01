@@ -10,7 +10,7 @@ parse_git_branch() {
 # Source: kirsle.net/wizards/ps1.html
 export PS1="\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch) \[$(tput sgr0)\]"
 
-export PATH=/opt/local/bin:/opt/local/sbin:${PATH}
+export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 
 # Aliases
 
@@ -36,7 +36,16 @@ alias gmm='git merge master'
 
 ## Projects
 alias butch='cd ~/Websites/butchers-market'
+alias clip='cd ~/Development/clippity'
+alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
+
+# MySql
+export PATH=$PATH:/usr/local/mysql/bin
 
 # Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# Rbenv
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"

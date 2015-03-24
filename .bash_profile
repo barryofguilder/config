@@ -49,3 +49,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # Rbenv
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
+
+# Java
+export JAVA_HOME=$(/usr/libexec/java_home)

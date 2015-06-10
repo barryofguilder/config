@@ -39,6 +39,7 @@ alias butch='cd ~/Websites/butchers-market'
 alias clip='cd ~/Development/clippity'
 alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
+alias vcei='cd ~/Development/VCE/ios-application'
 
 # MySql
 export PATH=$PATH:/usr/local/mysql/bin
@@ -52,3 +53,8 @@ eval "$(rbenv init -)"
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+# Visual Studio Code
+code () {
+  VSCODE_CWD="$PWD" open -n -b "com.microsoft.VSCode" --args $*
+}

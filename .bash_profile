@@ -36,6 +36,7 @@ alias push='git push origin head'
 alias pull='git pull'
 alias add='git add --all'
 alias cm='git commit -m'
+alias co='git checkout'
 
 ## Projects
 alias butch='cd ~/Websites/butchers-market'
@@ -43,6 +44,7 @@ alias clip='cd ~/Development/clippity'
 alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
 alias vcei='cd ~/Development/VCE/ios-application'
+alias vceiw='cd ~/Development/VCE/ios-application/website'
 
 # MySql
 export PATH=$PATH:/usr/local/mysql/bin

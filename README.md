@@ -11,7 +11,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
 | `.editorconfig` | The editor config file I use everywhere. |
 | `.inputrc` | Customizes keyboard mappings for tab completion. |
-| `Preferences.sublime-settings` | My Sublime Text 3 user preferences. |
+| `atom_config.cson` | My Atom user preferences. |
 
 ## Checklist
 
@@ -22,6 +22,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 ### 2. Download dependencies
 
+- Install [Atom](https://atom.io)
 - Install [rbenv](https://github.com/sstephenson/rbenv)
 - Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.2.0`)
   - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
@@ -29,6 +30,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Download and run the [Node.js Mac installer](http://nodejs.org/download/)
 - Install Grunt command line tools: `$ npm install -g grunt-cli`
 - Install Bower: `$ npm install -g bower`
+- Install Ember CLI: `$ npm install -g ember-cli`
 
 ### 3. Prep Terminal.app
 
@@ -37,19 +39,8 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
 
-### 4. Tweak Sublime Text 3 just right
+### 4. Tweak Atom just right
 
-- [Install Package Control](https://sublime.wbond.net/installation):
-  - Open Sublime Text 3 and hit ``Ctrl-` ``, then enter the following:
-```bash
-import urllib.request,os,hashlib; h = '2deb499853c4371624f5a07e27c334aa' + 'bf8c4e67d14fb0525ba4f89698a6d7e1'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)
-```
-- Install and load packages (`Cmd-Shift-P`):
-  - [EditorConfig](http://editorconfig.org) package
-  - [Emmet](http://docs.emmet.io) package
-  - [Handlebars](http://handlebarsjs.com) package
-  - [Less](http://lesscss.org) package
-  - [Sass](http://sass-lang.com) package
-  - [Spacegray theme](http://kkga.github.io/spacegray/)
-
-- Load user settings from [`Preferences.sublime-settings`](Preferences.sublime-settings)
+- Load user configuration from [`atom_config.cson`](atom_config.cson)
+- Install packages:
+  - [atom-handlebars](https://atom.io/packages/atom-handlebars)

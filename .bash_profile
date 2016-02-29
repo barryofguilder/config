@@ -23,7 +23,7 @@ code () {
 
 ## Shortcuts
 alias ll='ls -al'
-alias editbash='subl ~/.bash_profile'
+alias editbash='atom ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 
 ## Git commands
@@ -45,6 +45,8 @@ alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
 alias vcei='cd ~/Development/VCE/ios-application'
 alias vceiw='cd ~/Development/VCE/ios-application/website'
+alias upaweb='cd ~/Development/up-admin-web'
+alias upweb='cd ~/Development/up-web-client'
 
 # MySql
 export PATH=$PATH:/usr/local/mysql/bin

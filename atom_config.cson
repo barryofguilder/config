@@ -1,0 +1,14 @@
+"*":
+  core: {}
+  editor:
+    fontSize: 17
+    invisibles: {}
+  "exception-reporting":
+    userId: "c996d574-a74d-2bcf-9af9-b90baf5cb470"
+  "one-dark-ui": {}
+  tabs:
+    usePreviewTabs: true
+  "tree-view":
+    hideIgnoredNames: true
+  welcome:
+    showOnStartup: false

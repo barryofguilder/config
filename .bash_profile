@@ -45,6 +45,7 @@ alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
 alias vcei='cd ~/Development/VCE/ios-application'
 alias vceiw='cd ~/Development/VCE/ios-application/website'
+alias vcea='cd ~/Development/VCE/admin-tools-web'
 alias upaweb='cd ~/Development/up-admin-web'
 alias upweb='cd ~/Development/up-web-client'
 

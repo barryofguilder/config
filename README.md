@@ -44,3 +44,5 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Load user configuration from [`atom_config.cson`](atom_config.cson)
 - Install packages:
   - [atom-handlebars](https://atom.io/packages/atom-handlebars)
+  - [emmet](https://atom.io/packages/emmet)
+  - [file-icons](https://atom.io/packages/file-icons)

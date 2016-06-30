@@ -40,12 +40,12 @@ alias butch='cd ~/Development/butchers-market-v2'
 alias clip='cd ~/Development/clippity'
 alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
-alias vcei='cd ~/Development/VCE/ios-application'
-alias vceiw='cd ~/Development/VCE/ios-application/website'
-alias vcea='cd ~/Development/VCE/admin-tools-web'
-alias upaweb='cd ~/Development/up-admin-web'
-alias upweb='cd ~/Development/up-web-client'
-alias uphweb='cd ~/Development/up-hl7-admin'
+alias vcei='cd ~/Development/vce/ios-application'
+alias vceiw='cd ~/Development/vce/ios-application/website'
+alias vcea='cd ~/Development/vce/admin-tools-web'
+alias upaweb='cd ~/Development/up/admin-web'
+alias upweb='cd ~/Development/up/web-client'
+alias uphweb='cd ~/Development/up/hl7-admin-web'
 
 # MySql
 export PATH=$PATH:/usr/local/mysql/bin

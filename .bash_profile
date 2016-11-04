@@ -36,7 +36,7 @@ alias cm='git commit -m'
 alias co='git checkout'
 
 ## Projects
-alias butch='cd ~/Development/butchers-market-v2'
+alias butch='cd ~/Development/butchers-market'
 alias clip='cd ~/Development/clippity'
 alias clipw='cd ~/Development/clippity-web'
 alias prana='cd ~/Development/prana-server'
@@ -59,3 +59,6 @@ eval "$(rbenv init -)"
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)
+
+export NVM_DIR="/Users/Jason/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm

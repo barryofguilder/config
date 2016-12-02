@@ -27,7 +27,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.2.0`)
   - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
 - Install Rails gem: `$ gem install rails`
-- Download and run the [Node.js Mac installer](http://nodejs.org/download/)
+- Download and run the [Node.js Mac installer](https://nodejs.org/en/download/)
 - Install Grunt command line tools: `$ npm install -g grunt-cli`
 - Install Bower: `$ npm install -g bower`
 - Install Ember CLI: `$ npm install -g ember-cli`

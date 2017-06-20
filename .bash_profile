@@ -37,25 +37,10 @@ alias co='git checkout'
 
 ## Projects
 alias butch='cd ~/Development/butchers-market'
-alias clip='cd ~/Development/clippity'
-alias clipw='cd ~/Development/clippity-web'
-alias prana='cd ~/Development/prana-server'
-alias vcei='cd ~/Development/vce/ios-application'
-alias vceiw='cd ~/Development/vce/ios-application/website'
-alias vcea='cd ~/Development/vce/admin-tools-web'
-alias upaweb='cd ~/Development/up/admin-web'
 alias upweb='cd ~/Development/up/web-client'
-alias uphweb='cd ~/Development/up/hl7-admin-web'
 
 # MySql
 export PATH=$PATH:/usr/local/mysql/bin
-
-# Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# Rbenv
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
 
 # Java
 export JAVA_HOME=$(/usr/libexec/java_home)

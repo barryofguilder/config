@@ -23,13 +23,9 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 ### 2. Download dependencies
 
 - Install [Atom](https://atom.io)
-- Install [rbenv](https://github.com/sstephenson/rbenv)
-- Install [a Ruby version](https://github.com/sstephenson/rbenv#installing-ruby-versions) (last one I used was `2.2.0`)
-  - Set a [global Ruby version](https://github.com/sstephenson/rbenv#rbenv-global)
-- Install Rails gem: `$ gem install rails`
+- Install [Homebrew](https://brew.sh)
 - Download and run the [Node.js Mac installer](https://nodejs.org/en/download/)
-- Install Grunt command line tools: `$ npm install -g grunt-cli`
-- Install Bower: `$ npm install -g bower`
+- Install [Yarn](https://yarnpkg.com/en/docs/install)
 - Install Ember CLI: `$ npm install -g ember-cli`
 
 ### 3. Prep Terminal.app
@@ -44,5 +40,9 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Load user configuration from [`atom_config.cson`](atom_config.cson)
 - Install packages:
   - [atom-handlebars](https://atom.io/packages/atom-handlebars)
+  - [editorconfig](https://atom.io/packages/editorconfig)
+  - [ember-tabs](https://atom.io/packages/ember-tabs)
   - [emmet](https://atom.io/packages/emmet)
   - [file-icons](https://atom.io/packages/file-icons)
+  - [linter-eslint](https://atom.io/packages/linter-eslint)
+  - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)

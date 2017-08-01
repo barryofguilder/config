@@ -16,7 +16,6 @@ export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 
 ## Tools
 alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-alias beans='/Applications/NetBeans/NetBeans\ 8.0.2.app/Contents/Resources/NetBeans/bin/netbeans'
 
 ## Shortcuts
 alias ll='ls -al'
@@ -26,6 +25,7 @@ alias resource='source ~/.bash_profile && echo "Done!"'
 ## Git commands
 alias log='git log'
 alias diff='git diff'
+alias diffe='git diff -- . ":(exclude)package-lock.json"'
 alias branch='git branch'
 alias st='git status'
 alias fetch='git fetch'
@@ -37,13 +37,5 @@ alias co='git checkout'
 
 ## Projects
 alias butch='cd ~/Development/butchers-market'
-alias upweb='cd ~/Development/up/web-client'
-
-# MySql
-export PATH=$PATH:/usr/local/mysql/bin
-
-# Java
-export JAVA_HOME=$(/usr/libexec/java_home)
-
-export NVM_DIR="/Users/Jason/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+alias rtp='cd ~/Development/RTP'
+alias dops='cd ~/Development/RTP/Phoenix/Websites/DataOperations/DataOperations/UI'

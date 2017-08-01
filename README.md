@@ -1,6 +1,6 @@
 # Config
 
-**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed with Git, Ruby, GitHub, and more so I can more quickly get back to coding.
+**Config** is a basic checklist I follow to set up a new Mac's development environment. It gets me up to speed so I can more quickly get back to coding.
 
 Inspiration for this came from @mdo's [repository](https://github.com/mdo/config) of the same name.
 
@@ -46,3 +46,6 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
   - [file-icons](https://atom.io/packages/file-icons)
   - [linter-eslint](https://atom.io/packages/linter-eslint)
   - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
+
+- Install themes:
+  - [base16-syntax](https://atom.io/themes/base16-syntax)

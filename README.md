@@ -34,6 +34,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Load [`.inputrc`](.inputrc)
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
+- Install [git-recent](https://github.com/paulirish/git-recent)
 
 ### 4. Tweak Atom just right
 
@@ -45,7 +46,6 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
   - [emmet](https://atom.io/packages/emmet)
   - [file-icons](https://atom.io/packages/file-icons)
   - [linter-eslint](https://atom.io/packages/linter-eslint)
-  - [platformio-ide-terminal](https://atom.io/packages/platformio-ide-terminal)
 
 - Install themes:
   - [base16-syntax](https://atom.io/themes/base16-syntax)

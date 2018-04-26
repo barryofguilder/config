@@ -19,8 +19,9 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 ### 1. Prep OS X
 
-- Download and install latest version of Xcode from the Mac App Store
-- Download and install Xcode command line tools
+- Download and install latest version of Xcode from the Mac App Store.
+- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
+- Install [Git](https://git-scm.com/download/mac).
 
 ### 2. Download dependencies
 

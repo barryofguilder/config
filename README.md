@@ -12,6 +12,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 | `.editorconfig` | The editor config file I use everywhere. |
 | `.inputrc` | Customizes keyboard mappings for tab completion. |
 | `atom_config.cson` | My Atom user preferences. |
+| `atom_styles.less` | My Atom stylesheet. |
 
 ## Checklist
 
@@ -39,9 +40,11 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 ### 4. Tweak Atom just right
 
 - Load user configuration from [`atom_config.cson`](atom_config.cson)
+- Load stylesheet from [`atom_styles.less`](atom_styles.less)
 - Install packages:
   - [atom-handlebars](https://atom.io/packages/atom-handlebars)
   - [editorconfig](https://atom.io/packages/editorconfig)
+  - [ember-snippets](https://atom.io/packages/ember-snippets)
   - [ember-tabs](https://atom.io/packages/ember-tabs)
   - [emmet](https://atom.io/packages/emmet)
   - [file-icons](https://atom.io/packages/file-icons)

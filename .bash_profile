@@ -14,9 +14,6 @@ export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 
 # Aliases
 
-## Tools
-alias subl='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
-
 ## Shortcuts
 alias ll='ls -al'
 alias editbash='atom ~/.bash_profile'
@@ -38,9 +35,19 @@ alias rebase='git rebase -i'
 alias reset='git reset --hard head'
 alias recent='git recent'
 
-## Projects
-alias config='cd ~/Development/config'
+## Personal Projects
 alias butch='cd ~/Development/butchers-market'
-alias rtp='cd ~/Development/RTP'
+alias config='cd ~/Development/config'
+
+## Work Projects
+alias di='cd ~/Development/data-ingestion'
 alias dops='cd ~/Development/data-ops-web-server'
 alias dopsui='cd ~/Development/data-ops-web-client'
+alias dts='cd ~/Development/dts-database'
+alias ods='cd ~/Development/ods-database'
+alias ops='cd ~/Development/devops-shared'
+alias rtp='cd ~/Development/RTP'
+alias trans='cd ~/Development/transparency-export-lambda'
+
+## AWS
+alias awsrenew='python ~/Development/devops-shared/cli-sts-auth/sso-aws-cli-auth.py'

@@ -35,6 +35,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 - Load [`.inputrc`](.inputrc)
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
+- Install [git-open](https://github.com/paulirish/git-open)
 - Install [git-recent](https://github.com/paulirish/git-recent)
 
 ### 4. Tweak Atom just right

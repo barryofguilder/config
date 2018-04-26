@@ -10,6 +10,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 | --- | --- |
 | `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
 | `.editorconfig` | The editor config file I use everywhere. |
+| `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
 | `.inputrc` | Customizes keyboard mappings for tab completion. |
 | `atom_config.cson` | My Atom user preferences. |
 | `atom_styles.less` | My Atom stylesheet. |
@@ -33,6 +34,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 - Load [`.bash_profile`](.bash_profile)
 - Load [`.inputrc`](.inputrc)
+- Load [`.gitconfig`](.gitconfig) contents into the global `~/.gitconfig`
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
 - Install [git-open](https://github.com/paulirish/git-open)

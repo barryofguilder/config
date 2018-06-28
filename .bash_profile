@@ -16,7 +16,7 @@ export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 
 ## Shortcuts
 alias ll='ls -al'
-alias editbash='atom ~/.bash_profile'
+alias editbash='code ~/.bash_profile'
 alias resource='source ~/.bash_profile && echo "Done!"'
 
 ## Git commands
@@ -31,10 +31,13 @@ alias pull='git pull'
 alias add='git add --all'
 alias cm='git commit -m'
 alias co='git checkout'
-alias cp='git cherry-pick'
+alias cherry='git cherry-pick'
 alias rebase='git rebase -i'
 alias reset='git reset --hard head'
 alias recent='git recent'
+
+## Other aliases
+alias rmember='rm -rf node_modules dist tmp'
 
 ## Personal Projects
 alias butch='cd ~/Development/butchers-market'

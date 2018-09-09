@@ -11,6 +11,7 @@ parse_git_branch() {
 export PS1="\n\[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch)\n\[$(tput bold)\]\[$(tput setaf 5)\]➜ \[$(tput sgr0)\]"
 
 export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
+export PATH=$PATH:/usr/local/mysql/bin/
 
 # Aliases
 
@@ -44,6 +45,8 @@ alias butch='cd ~/Development/butchers-market'
 alias config='cd ~/Development/config'
 
 ## Work Projects
+alias bapi='cd ~/Development/blurple-api'
+alias bui='cd ~/Development/blurple-ui'
 alias di='cd ~/Development/data-ingestion'
 alias dops='cd ~/Development/data-ops-web-server'
 alias dopsui='cd ~/Development/data-ops-web-client'

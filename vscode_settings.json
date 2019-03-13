@@ -1,17 +1,16 @@
 {
-  "workbench.colorTheme": "Ocean Dark Extended",
-
-  "editor.fontSize": 14,
+  "editor.fontSize": 12,
   "editor.minimap.enabled": false,
   "editor.rulers": [ 100 ],
 
-  "terminal.integrated.fontSize": 14,
-
-  "window.zoomLevel": 0.8,
-
-  "workbench.startupEditor": "newUntitledFile",
-
+  "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
-  "explorer.autoReveal": false
+
+  "terminal.integrated.fontSize": 14,
+
+  "window.zoomLevel": 1,
+
+  "workbench.colorTheme": "Ocean Dark Extended",
+  "workbench.startupEditor": "newUntitledFile"
 }

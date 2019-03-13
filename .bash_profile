@@ -12,6 +12,11 @@ export PS1="\n\[$(tput setaf 6)\]\w\[$(tput setaf 3)\]\$(parse_git_branch)\n\[$(
 
 export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 export PATH=$PATH:/usr/local/mysql/bin/
+export PATH=$PATH:~/bin/
+
+# nodenv
+# Source: https://github.com/nodenv/nodenv
+eval "$(nodenv init -)"
 
 # Aliases
 
@@ -55,6 +60,8 @@ alias ods='cd ~/Development/ods-database'
 alias ops='cd ~/Development/devops-shared'
 alias rtp='cd ~/Development/RTP'
 alias trans='cd ~/Development/transparency-export-lambda'
+alias doc='cd ~/workspace/reputation'
+alias docui='cd ~/workspace/reputation/development/modules/com.digitalassent.docscores'
 
 ## AWS
 alias awsrenew='python ~/Development/devops-shared/cli-sts-auth/sso-aws-cli-auth.py'

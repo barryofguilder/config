@@ -26,7 +26,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 - Install [VSCode](https://code.visualstudio.com/)
 - Install [Homebrew](https://brew.sh)
-- Download and run the [Node.js Mac installer](https://nodejs.org/en/download/)
+- Install [nodenv](https://github.com/nodenv/nodenv)
 - Install [Yarn](https://yarnpkg.com/en/docs/install)
 - Install Ember CLI: `$ npm install -g ember-cli`
 

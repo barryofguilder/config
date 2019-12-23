@@ -20,6 +20,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 - Download and install latest version of Xcode from the Mac App Store.
 - Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
+  - Note: This will get installed automatically with Homebrew.
 - Install [Git](https://git-scm.com/download/mac).
 
 ### 2. Download dependencies
@@ -44,13 +45,18 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 - Load settings from [`vscode_settings.json`](vscode_settings.json)
 - Install extensions:
+  - [Auto Rename Tag](https://github.com/formulahendry/vscode-auto-rename-tag.git)
   - [C#](https://marketplace.visualstudio.com/items?itemName=ms-vscode.csharp)
   - [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
+  - [Docker Explorer](https://github.com/formulahendry/vscode-docker-explorer.git)
   - [Duplicate action](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-duplicate)
   - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)
-  - [Ember JS code snippets](https://marketplace.visualstudio.com/items?itemName=phanitejakomaravolu.EmberES6Snippets)
+  - [Ember Language Server](https://github.com/emberwatch/vscode-ember)
+  - [Ember Module Snippets](https://github.com/candidmetrics/ember-module-snippets)
   - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+  - [Git Commits](https://github.com/Exelord/git-commits)
   - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+  - [Tailwind CSS IntelliSense](https://github.com/bradlc/vscode-tailwindcss.git)
 
 - Install themes:
   - [Base16 Ocean Dark Extended](https://marketplace.visualstudio.com/items?itemName=kleber-swf.ocean-dark-extended)

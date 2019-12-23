@@ -1,5 +1,4 @@
 {
-  "editor.fontSize": 12,
   "editor.minimap.enabled": false,
   "editor.rulers": [ 100 ],
 
@@ -12,5 +11,15 @@
   "window.zoomLevel": 1,
 
   "workbench.colorTheme": "Ocean Dark Extended",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "newUntitledFile",
+  "diffEditor.renderSideBySide": false,
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": false,
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "diffEditor.ignoreTrimWhitespace": false
 }

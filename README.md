@@ -26,6 +26,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 ### 2. Prep Terminal.app
 
 - Load [`.zshrc`](.zshrc)
+  - Update `.zshrc` with the GitHub access token.
 - Run `touch ~/.hushlogin` to remove "Last Login" message.
 - Load [`.gitconfig`](.gitconfig) contents into the global `~/.gitconfig`
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))

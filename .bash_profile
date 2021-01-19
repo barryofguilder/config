@@ -14,6 +14,9 @@ export PATH=/usr/local/git/bin:/opt/local/bin:/opt/local/sbin:${PATH}
 export PATH=$PATH:/usr/local/mysql/bin/
 export PATH=$PATH:~/bin/
 
+# Add token for GitHub packages
+export NPM_TOKEN="token"
+
 # nodenv
 # Source: https://github.com/nodenv/nodenv
 eval "$(nodenv init -)"

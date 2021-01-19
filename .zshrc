@@ -18,6 +18,9 @@ zstyle ':vcs_info:git:*' formats '%F{003}(%b)%f '
 
 export PATH=/opt/homebrew/bin:$PATH
 
+# Add token for GitHub packages
+export NPM_TOKEN="token"
+
 # nodenv
 # Source: https://github.com/nodenv/nodenv
 eval "$(nodenv init -)"

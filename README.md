@@ -8,40 +8,31 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 
 | File | Description |
 | --- | --- |
-| `.bash-profile` | Customizes the Terminal.app prompt and echos the currently checked out Git branch. |
-| `.editorconfig` | The editor config file I use everywhere. |
 | `.gitconfig` | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
-| `.inputrc` | Customizes keyboard mappings for tab completion. |
+| `.zshrc` | Customizes the ZSH prompt and echos the currently checked out Git branch. |
 | `vscode_settings.json` | My VSCode settings. |
 
 ## Checklist
 
-### 1. Prep OS X
-
-- Download and install latest version of Xcode from the Mac App Store.
-- Download and install Xcode Command Line Tools from <https://developer.apple.com/downloads/>.
-  - Note: This will get installed automatically with Homebrew.
-- Install [Git](https://git-scm.com/download/mac).
-
-### 2. Download dependencies
-
+### 1. Download dependencies
 - Install [VSCode](https://code.visualstudio.com/)
 - Install [Homebrew](https://brew.sh)
-- Install [nodenv](https://github.com/nodenv/nodenv)
+- Install [Git](https://git-scm.com/download/mac).
+  - `brew install git`
+- Install [nodenv](https://github.com/nodenv/nodenv#homebrew-on-macos)
 - Install [Yarn](https://yarnpkg.com/en/docs/install)
-- Install Ember CLI: `$ npm install -g ember-cli`
+- Install Ember CLI: `npm install -g ember-cli`
 
-### 3. Prep Terminal.app
+### 2. Prep Terminal.app
 
-- Load [`.bash_profile`](.bash_profile)
-- Load [`.inputrc`](.inputrc)
+- Load [`.zshrc`](.zshrc)
+- Run `touch ~/.hushlogin` to remove "Last Login" message.
 - Load [`.gitconfig`](.gitconfig) contents into the global `~/.gitconfig`
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.
 - Install [git-open](https://github.com/paulirish/git-open)
-- Install [git-recent](https://github.com/paulirish/git-recent)
 
-### 4. Tweak VSCode just right
+### 3. Tweak VSCode just right
 
 - Load settings from [`vscode_settings.json`](vscode_settings.json)
 - Install extensions:

@@ -71,4 +71,13 @@ alias trans='cd ~/Development/transparency-export-lambda'
 alias ui='cd ~/Development/ui-components'
 
 ## AWS
-alias awsrenew='python ~/Development/devops-shared/cli-sts-auth/sso-aws-cli-auth.py'
+alias awsrenew='python3 ~/Development/DevOps/AWS-SSO/aws_sso_config_credentials.py'
+
+## Opens browser to Jira ticket
+function jira() {
+    if [ "$1" != "" ]; then
+        open "https://nrc-eng.atlassian.net/browse/$1"
+    else
+        echo "Enter Jira ticket number"
+    fi
+}

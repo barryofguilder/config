@@ -1,6 +1,32 @@
 {
+  "diffEditor.ignoreTrimWhitespace": false,
+  "diffEditor.renderSideBySide": false,
+
   "editor.minimap.enabled": false,
-  "editor.rulers": [ 100 ],
+  "editor.rulers": [100],
+
+  "editor.formatOnSave": true,
+  "editor.renderWhitespace": "selection",
+  "editor.renderControlCharacters": false,
+
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[handlebars]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
 
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
@@ -11,15 +37,5 @@
   "window.zoomLevel": 1,
 
   "workbench.colorTheme": "Ocean Dark Extended",
-  "workbench.startupEditor": "newUntitledFile",
-  "diffEditor.renderSideBySide": false,
-  "editor.renderWhitespace": "selection",
-  "editor.renderControlCharacters": false,
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "diffEditor.ignoreTrimWhitespace": false
+  "workbench.startupEditor": "newUntitledFile"
 }

@@ -81,3 +81,8 @@ function jira() {
         echo "Enter Jira ticket number"
     fi
 }
+
+## Kills the passed in port
+function killport() {
+    lsof -t -i tcp:$1 | xargs kill -9
+}

@@ -9,6 +9,7 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
 | File                   | Description                                                                         |
 | ---------------------- | ----------------------------------------------------------------------------------- |
 | `.gitconfig`           | Global Git configuration to specify my name and email, shortcuts, colors, and more. |
+| `.vimrc`               | Customizes VIM with some basic config.                                              |
 | `.zshrc`               | Customizes the ZSH prompt and echos the currently checked out Git branch.           |
 | `vscode_settings.json` | My VSCode settings.                                                                 |
 
@@ -61,6 +62,11 @@ Inspiration for this came from @mdo's [repository](https://github.com/mdo/config
   - Create file and open it in VSCode and paste the contents.
   ```sh
   touch ~/.gitconfig | code ~/.gitconfig
+  ```
+- Load [`.vimrc`](.vimrc)
+  - Create file and open it in VSCode and paste the contents.
+  ```sh
+  touch ~/.vimrc | code ~/.vimrc
   ```
 - Tweak color scheme (last one used was [ocean-terminal](https://github.com/mdo/ocean-terminal))
   - Set font size to `16pt`.

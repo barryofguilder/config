@@ -31,6 +31,7 @@ eval "$(nodenv init -)"
 alias ll='ls -al'
 alias editzsh='code ~/.zshrc'
 alias resource='source ~/.zshrc && echo "Done!"'
+alias bye='rm -rf node_modules dist tmp'
 
 ## Git commands
 alias add='git add --all'

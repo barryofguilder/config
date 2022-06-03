@@ -70,8 +70,8 @@ alias sui='cd ~/Development/web-survey-ui'
 alias trans='cd ~/Development/transparency-export-lambda'
 alias ui='cd ~/Development/ui-components'
 
-## AWS
-alias awsrenew='python3 ~/Development/DevOps/AWS-SSO/aws_sso_config_credentials.py'
+## Logs into NRC AWS and then updates credentials file with new session token
+alias awsrenew='aws sso login && python3 ~/Development/DevOps/AWS-SSO/aws_sso_config_credentials.py'
 
 ## Opens browser to Jira ticket
 function jira() {

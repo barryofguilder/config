@@ -21,10 +21,6 @@ export PATH=/opt/homebrew/bin:$PATH
 # Add token for GitHub packages
 export NPM_TOKEN="token"
 
-# nodenv
-# Source: https://github.com/nodenv/nodenv
-eval "$(nodenv init -)"
-
 # Aliases
 
 ## Shortcuts
@@ -50,6 +46,8 @@ alias rebase='git rebase -i'
 alias recent='git recent'
 alias reset='git reset --hard head'
 alias st='git status'
+alias gitcred='git config --local credential.helper ""'
+alias gitpwd='security delete-internet-password -l github.com'
 
 ## Personal Projects
 alias butch='cd ~/Development/butchers-market'
@@ -67,7 +65,6 @@ alias ods='cd ~/Development/odsdb'
 alias rtp='cd ~/Development/RTP'
 alias sapi='cd ~/Development/web-survey-api'
 alias sui='cd ~/Development/web-survey-ui'
-alias trans='cd ~/Development/transparency-export-lambda'
 alias ui='cd ~/Development/ui-components'
 
 ## Logs into NRC AWS and then updates credentials file with new session token

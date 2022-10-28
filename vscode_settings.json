@@ -8,35 +8,6 @@
   "editor.renderWhitespace": "selection",
   "editor.renderControlCharacters": false,
 
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[handlebars]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[json]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[markdown]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-  "[typescript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "editor.formatOnSave": true
-  },
-
   "explorer.autoReveal": false,
   "explorer.confirmDragAndDrop": false,
   "explorer.confirmDelete": false,
@@ -46,5 +17,5 @@
   "window.zoomLevel": 1,
 
   "workbench.colorTheme": "Ocean Dark Extended",
-  "workbench.startupEditor": "newUntitledFile"
+  "workbench.startupEditor": "none"
 }

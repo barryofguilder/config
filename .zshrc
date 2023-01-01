@@ -50,9 +50,11 @@ alias gitcred='git config --local credential.helper ""'
 alias gitpwd='security delete-internet-password -l github.com'
 
 ## Personal Projects
+alias a5a='cd ~/Development/a5aband'
 alias butch='cd ~/Development/butchers-market'
 alias butchapi='cd ~/Development/butchers-market-api'
 alias config='cd ~/Development/config'
+alias jn='code ~/Development/journal'
 
 ## Work Projects
 alias bapi='cd ~/Development/blurple-api'
@@ -69,6 +71,9 @@ alias ui='cd ~/Development/ui-components'
 
 ## Logs into NRC AWS and then updates credentials file with new session token
 alias awsrenew='aws sso login && python3 ~/Development/DevOps/AWS-SSO/aws_sso_config_credentials.py'
+
+## Minecraft Server
+alias mine='~/Minecraft/start.command'
 
 ## Opens browser to Jira ticket
 function jira() {

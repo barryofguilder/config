@@ -1,6 +1,16 @@
 # Check out color chart here for PROMPT
 # https://upload.wikimedia.org/wikipedia/commons/1/15/Xterm_256color_chart.svg
 
+# Homebrew Autocomplete
+# See: https://docs.brew.sh/Shell-Completion#configuring-completions-in-zsh
+if type brew &>/dev/null
+then
+  FPATH="$(brew --prefix)/share/zsh/site-functions:${FPATH}"
+
+  #autoload -Uz compinit
+  #compinit
+fi
+
 # Path completion
 autoload -Uz compinit && compinit
 
@@ -16,6 +26,7 @@ NEWLINE=$'\n'
 PROMPT='%F{006}%~%f '\$vcs_info_msg_0_'${NEWLINE}%F{005}➜%f '
 zstyle ':vcs_info:git:*' formats '%F{003}(%b)%f '
 
+# Homebrew
 export PATH=/opt/homebrew/bin:$PATH
 
 # Add token for GitHub packages
@@ -57,20 +68,13 @@ alias config='cd ~/Development/config'
 alias jn='code ~/Development/journal'
 
 ## Work Projects
-alias bapi='cd ~/Development/blurple-api'
-alias bui='cd ~/Development/blurple-ui'
-alias doc='cd ~/workspace/reputation'
-alias docui='cd ~/workspace/reputation/development/modules/com.digitalassent.docscores'
-alias dops='cd ~/Development/data-ops-web-server'
-alias dopsui='cd ~/Development/data-ops-web-client'
-alias ods='cd ~/Development/odsdb'
-alias rtp='cd ~/Development/RTP'
-alias sapi='cd ~/Development/web-survey-api'
-alias sui='cd ~/Development/web-survey-ui'
-alias ui='cd ~/Development/ui-components'
-
-## Logs into NRC AWS and then updates credentials file with new session token
-alias awsrenew='aws sso login && python3 ~/Development/DevOps/AWS-SSO/aws_sso_config_credentials.py'
+alias dis='cd ~/Development/OnwardCare-API'
+alias disapi='cd ~/Development/OnwardCare-API/OnwardCareWebAPI/OnwardCareWebAPI'
+alias disui='cd ~/Development/OnwardCare-API/OnwardCareWebAPI/OnwardCare.UI'
+alias sys='cd ~/Development/onward-system'
+alias dash='cd ~/Development/onward-system/dashboard'
+alias drive='cd ~/Development/onward-system/driver-app'
+alias ride='cd ~/Development/onward-system/rider-app'
 
 ## Minecraft Server
 alias mine='~/Minecraft/start.command'
@@ -78,7 +82,7 @@ alias mine='~/Minecraft/start.command'
 ## Opens browser to Jira ticket
 function jira() {
     if [ "$1" != "" ]; then
-        open "https://nrc-eng.atlassian.net/browse/$1"
+        open "https://onwardrides.atlassian.net/browse/$1"
     else
         echo "Enter Jira ticket number"
     fi
